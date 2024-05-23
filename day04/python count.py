@@ -1,7 +1,6 @@
 import sys
 
 def count_file_content(filename):
-    try:
         with open(filename) as fn:
             text = fn.read()
         
@@ -19,4 +18,3 @@ def count_file_content(filename):
         print(f"Characters: {character_count}")
         print(f"Lines: {line_count}")
         print(f"Words: {word_count}")
-        
