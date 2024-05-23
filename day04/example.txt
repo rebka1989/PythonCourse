@@ -1,0 +1,5 @@
+hello! this is a test file
+its my text here
+how many lines?^X
+^X
+
